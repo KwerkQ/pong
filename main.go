@@ -152,7 +152,7 @@ func main() {
 	rl.InitWindow(800, 600, "ping pong pang")
 	defer rl.CloseWindow()
 
-	rl.SetTargetFPS(60)
+	rl.SetTargetFPS(75)
 
 	for !rl.WindowShouldClose() {
 		rl.BeginDrawing()
